@@ -5,4 +5,21 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>MR-LIBSVM</name>
   <description>A MapReduce-powered extension to LIBSVM</description>
+  <dependencies>
+  	<dependency>
+  		<groupId>tw.edu.ntu.csie</groupId>
+  		<artifactId>libsvm</artifactId>
+  		<version>3.17</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.apache.hadoop</groupId>
+  		<artifactId>hadoop-common</artifactId>
+  		<version>2.4.1</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.apache.hadoop</groupId>
+  		<artifactId>hadoop-mapreduce-client-core</artifactId>
+  		<version>2.4.1</version>
+  	</dependency>
+  </dependencies>
 </project>
